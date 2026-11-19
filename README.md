@@ -9,7 +9,7 @@ connects the pricing engines, risk sensitivities, transaction ledger, and
 reproducible simulation studies.
 
 Project owner: **Deewash Sharma**. Implementation and documentation were
-developed with ChatGPT assistance. The project is an independent learning and
+developed by Deewash. The project is an independent learning and
 research exercise; it is not a published academic result.
 
 ## Research questions
