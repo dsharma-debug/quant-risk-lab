@@ -1,0 +1,4 @@
+# Direct dependencies; pip resolves releases compatible with your Python.
+matplotlib>=3.5,<4
+pandas>=1.5,<4
+streamlit>=1.40,<2

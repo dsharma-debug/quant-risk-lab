@@ -1,0 +1,110 @@
+{
+  "created_at_utc": "2026-11-19T04:30:31.949586+00:00",
+  "mode": "reference",
+  "python": "3.12.14",
+  "platform": "Linux",
+  "dependencies": {
+    "matplotlib": "3.10.8",
+    "pandas": "2.2.3",
+    "streamlit": "1.67.0"
+  },
+  "commands": [
+    [
+      "main.py"
+    ],
+    [
+      "compare_pricers.py"
+    ],
+    [
+      "compare_monte_carlo.py"
+    ],
+    [
+      "delta_experiment.py"
+    ],
+    [
+      "plot_delta_convergence.py"
+    ],
+    [
+      "mc_repeated_experiment.py"
+    ],
+    [
+      "compare_variance_reduction.py"
+    ],
+    [
+      "check_greeks.py"
+    ],
+    [
+      "run_hedge.py"
+    ],
+    [
+      "hedging_study.py"
+    ],
+    [
+      "plot_hedging_study.py"
+    ],
+    [
+      "volatility_study.py"
+    ],
+    [
+      "plot_volatility_study.py"
+    ]
+  ],
+  "source_sha256": {
+    "antithetic.py": "82e28c47bd1d5a699aa38f08f99aa56d6a3859506cdf5fb77c896632062504c5",
+    "binomial.py": "4acd4253738fef1ba69356bb88233669288188a39056350424d1a4ffc7f78029",
+    "black_scholes.py": "6786e62ed1f4f1bb605f11bebef4a060de1a16a634da897a5a731dbe3f3cb96a",
+    "check_dashboard.py": "865595f4e15a7f4d278a428765f529cb5ffd8fda57f54bbad9d1759e9168142d",
+    "check_greeks.py": "f94a25b971e1f7c95a69cd0a82949d7110e0ef4317876425c567309770885444",
+    "compare_monte_carlo.py": "b1fb9ad75bc5e859b0a8f2d002eb043bee555466b333a51cb2c6660e10b85644",
+    "compare_pricers.py": "3a3155460184c0ad93367da16290383bccec6245b5c54f679fe6edeca0a0dc03",
+    "compare_variance_reduction.py": "97a74c2e651a99f5d1bab085a2b9c307729677188ecea02531f98c0a9a10e7ce",
+    "dashboard.py": "3e9e4b41898c145ecdb1003533ad6464c496123b5dc93b42a690a0c9fd801425",
+    "dashboard_support.py": "74bc7c9a1a7931019fb1d42785e97c170ee71940b4bd6c5b310f8c5507993eeb",
+    "delta_experiment.py": "494a5fbb7b3d7e3876fcdad1490b72a20bf6d10d49b16595d733f1a1f4d0be5a",
+    "greeks.py": "ca74f602ac3cdf7efc774370f6a6ed72dba1e9547c0b404a153d279cd8399c2c",
+    "hedging.py": "89aeaf05c1310a140531476531d4ea5e155ad9f335c5a0101b8cf78b0c543165",
+    "hedging_study.py": "7d39d0ae7c8fbd3005af3f2f13a3c9f735f57bb139dc554e233a1cb210de645e",
+    "main.py": "6a8333da74c0c6f3b679d55eb12f3d21bcb69ea1a26c5f7250dba8a9a683aa68",
+    "mc_repeated_experiment.py": "14f8ca7b30bb672c21d2df079fa1149bf13f3eb177e9861c159050fd60c5c1c8",
+    "monte_carlo.py": "0cd67bc9d2592aad87b7fe9e60116c5b6c44d8cb43e6e4a2c648607f7bf29505",
+    "plot_delta_convergence.py": "ad2510b760338146d47b47c11b8fc524f060b9cb3a0b4188dded66432d3d6ceb",
+    "plot_hedging_study.py": "5989b2bde616379153cd5333b4dab1ed169f8c40a491d8fdb2e76f8ad0c50b97",
+    "plot_volatility_study.py": "ed581fe4e8b1802b34239570d193de559f0d220d2b22379fdaa2063415917c5c",
+    "reproduce.py": "ecdf6b0031260d6e7a49e98d79b729e273c7d191eb9d0a9173256cc1b1b9304b",
+    "run_hedge.py": "03b85b46f16c940095eb2111abec46feccd3ba0925be8ef8c403f346e81a7566",
+    "test_antithetic.py": "390f304856cb3231d20d4b44caeebb987ff909a2649419775be0e884cb7b6400",
+    "test_binomial.py": "46f4a32adcd73c82b796afb8688bd0bdfe76be5b01782aeed4995e609a605e26",
+    "test_black_scholes.py": "27f1a9506a237e1499ebf005d70556230e4b19fbd8d04a7678f84dfd39151566",
+    "test_dashboard_support.py": "2e569b189541ca3262b904219cbb078203e4df1c5e14a4749068e31352b97128",
+    "test_greeks.py": "2ec3b475798ef7f8b4d73327513182608df9624f3b617ac75f07fc3d90f88c27",
+    "test_hedging.py": "93a0659aa6c08b009c475ccd7a763e8c0cd11d58218d4d67985e10ae73330a8e",
+    "test_hedging_study.py": "41f9e8d1fec679ead123f694beb47fd5783440128cac9d8defcf772bc49f4b1b",
+    "test_mc_experiment.py": "ef1ed35088bb864de9044b76a7402ff8fea34366d9d355bd5c1c0250e1028e6a",
+    "test_monte_carlo.py": "8dd334bcd31005ea9f339ed586cd76217491b3f3273d694acbeb142c1e12e29b",
+    "test_volatility_study.py": "4b8cfaea4b8a706c00867860f947e8b82cb1525a6a071a1367f24a4578a66738",
+    "volatility_study.py": "074a5264122be00e49bf55127f059e28dee2ccda7d068a49f716c744377877cc",
+    "requirements-reference-py312.txt": "733a75cbaa67f68819ff0163871ab1bb18a2e71fedc25866ee2b9a8897592c5b",
+    "requirements-tested.txt": "67bb80fcd855d5f12e371e906930f966bf76484beb4ea6af47097bb4b1797aec",
+    "requirements.txt": "8d09f99598c38f4ac362949d8db19b684b0d10b1c28aa031bed6844ff14b8e07",
+    ".github/workflows/tests.yml": "23d25e7aa91a34ba65408a1c3ada182a5b557acdf1a001fcd0c59932d5d8c1cd"
+  },
+  "result_sha256": {
+    "results/delta_convergence.csv": "90a9e3a532064ab20126a33cfbd4a180e90d8a7d74349fe3e44c48c8b69e294a",
+    "results/delta_convergence.png": "3a303f275a785441b0f13d1b491b01e0b71fee728a68da6e1aa6a70d43290f29",
+    "results/greeks_validation.csv": "bbb3da473352c4cec631f29ecc7217a59129c3dcca62d238497221b88c9833f7",
+    "results/hedge_ledger_0bps.csv": "87e6d4ca7d3d44797e94198cc162f828460ea74f459b6409b2d0cfa85ebbbbb3",
+    "results/hedge_ledger_5bps.csv": "53891f7ce458cd9406e68682ca01f863d0c0b6ee91cb82306b8b02af417f691f",
+    "results/hedge_path.csv": "5be32b84f0b38697b8dac5af393bb358661e7c381ba14fd2e73193eced290e61",
+    "results/hedge_summary.csv": "4fac3617c217c1697a3c7e9f36dd75911a78c0097d3204bd15290eaace55459d",
+    "results/hedging_frequency.png": "2e9f2b7a4bd377227056266886676bae1f4197dff574cb5fb9ec052c09004103",
+    "results/hedging_study_summary.csv": "faab99be14f0fe441ded3cbf685112922d4567da376498db3be177408199ef83",
+    "results/hedging_study_trials.csv": "78cd3499c937f52cf74da1d1cbb189969f5373b7b4090a8caf5833aa7c1e506b",
+    "results/mc_summary.csv": "500e878da3ccfed36b6e219e8b302757b91aa0a06054ef458df6e533383bbed7",
+    "results/mc_trials.csv": "57136dccd2127738bacf2cc47e48c150023f6fbfea0cd43730deb2d776dd47c5",
+    "results/variance_reduction_summary.csv": "1edade843bee83fbdfc48db70008bf4a6fb8fd6e389c774cc9ec6e69c62337f4",
+    "results/variance_reduction_trials.csv": "00bd3d3bdbb8c158c70e021d0604431addbac0a2b8f3a7d464b54e9786552738",
+    "results/volatility_fixed.png": "1359bb21a9fe6f8065cabe5fb62ebbd9cf434696af60ccdaca50e2cb834c60b3",
+    "results/volatility_fixed_summary.csv": "0cc25a802bcbde423aec7f564793bc3fa575f47375f8c50bec6771274e396025",
+    "results/volatility_fixed_trials.csv": "fb6a45dad989be32f2ee0e27ca6210227769adb4665b2488cc782f4be5795d3c"
+  }
+}

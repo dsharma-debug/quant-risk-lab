@@ -1,0 +1,37 @@
+name: Python tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  numerical-tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.12"]
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Run standard-library test suite
+        run: python -m unittest discover -v
+
+  dashboard-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12.14"
+          cache: pip
+          cache-dependency-path: requirements-reference-py312.txt
+      - name: Install resolved reference dependencies
+        run: python -m pip install -r requirements-reference-py312.txt
+      - name: Check dashboard workflows
+        run: python check_dashboard.py
