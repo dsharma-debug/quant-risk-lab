@@ -9,9 +9,10 @@ permissions:
   contents: read
 
 jobs:
-  numerical-tests:
-    runs-on: ubuntu-latest
+   numerical-tests:
+    runs-on: ubuntu-22.04
     strategy:
+      fail-fast: false
       matrix:
         python-version: ["3.9", "3.12"]
     steps:
@@ -23,7 +24,7 @@ jobs:
         run: python -m unittest discover -v
 
   dashboard-checks:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
