@@ -149,5 +149,5 @@ simulation experiments, not demonstrations of real-market profitability.
 - [Reproduction instructions and experiment configurations](docs/REPRODUCIBILITY.md)
 - [Research findings and limitations](docs/RESEARCH_FINDINGS.md)
 - [Local version-control preparation](docs/VERSION_CONTROL.md)
-- [Research report](docs/research_report.md): Methods, experimental results, limitations, and conclusions.
+- [Research report](docs/RESEARCH_REPORT.md): Methods, experimental results, limitations, and conclusions.
 - [References](docs/REFERENCES.md)
